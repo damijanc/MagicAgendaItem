@@ -1,0 +1,21 @@
+@import "variables";
+@import "fonts";
+@import "agenda-list";
+@import "upload-documents";
+@import "agenda-cell";
+@import "details";
+body {
+  font-family: HelveticaNeueLTPro-Md;
+  background-color: $silver-light;
+  color: $dark;
+}
+
+.main-wrapper{
+  min-width: 400px;
+}
+h1.meeting-title{
+  font-family: HelveticaNeueLTPro-Roman;
+  padding:20px;
+  background-color: $white;
+  color:#2D557C;
+}

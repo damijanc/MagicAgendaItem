@@ -1,0 +1,48 @@
+.upload-documents-wrapper {
+  width: 300px;
+  height: 400px;
+  position: relative;
+
+  .ant-upload.ant-upload-drag {
+    border: 2px dashed $blue;
+  }
+  .upload-text {
+    line-height: 20px;
+  }
+
+  .ant-upload.ant-upload-drag .ant-upload-drag-container {
+    display: block;
+    padding-top:20px;
+    padding-bottom: 20px;
+    position:relative;
+
+    .upload-hint {
+      text-align: right;
+      position: absolute;
+      bottom: -25px;
+      right: 0;
+      span {
+        color: $blue;
+      }
+    }
+
+    .add-icon {
+      color: $blue !important;
+      font-size: 15px !important;
+      line-height: 15px;
+      margin-right: 10px;
+    }
+  }
+
+  .ant-upload-list{
+    position: relative;
+    top:30px;
+    overflow-y: auto;
+    max-height: 260px;
+  }
+  .popover-footer{
+    position: absolute;
+    bottom:0px;
+    padding:10px 0px;
+  }
+}

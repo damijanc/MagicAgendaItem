@@ -1,0 +1,71 @@
+.agenda-table {
+  overflow-y: auto;
+  max-height: 610px;
+}
+
+.no-table-data {
+  padding: 20px 20px 0px 20px;
+}
+
+.add-item-footer-holder {
+  padding: 20px;
+  background-color: $silver-light;
+}
+
+.upload-footer-holder {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: $white;
+  padding: 8px 20px;
+  border-top: 1px solid $silver-border;
+
+  .upload-documents {
+    float: right;
+    & :after {
+      clear: both;
+    }
+  }
+
+}
+tr.ant-table-expanded-row, tr.ant-table-expanded-row:hover {
+  background: $white;
+}
+
+
+.ant-table-content {
+  background-color: $silver-light;
+  .ant-table-fixed {
+    background-color: $silver-light;
+  }
+  .ant-table-expanded-row {
+    background-color: $white;
+    & :hover{
+      background: $white;
+    }
+    &:hover>td {
+      background: $white;
+    }
+  }
+}
+
+.hide-expand-icon .ant-table-row-expand-icon {
+  display: none;
+}
+
+.popover-title{
+  font-weight: bold;
+  .right{
+    float:right;
+    & :after{
+      clear:both;
+    }
+    .close-popover{
+      cursor: pointer;
+    }
+  }
+  .left{
+    float:left;
+  }
+}
