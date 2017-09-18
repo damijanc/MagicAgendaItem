@@ -24,7 +24,7 @@
 * Fast and scalable
 
 
-## How To Use
+## How To Use it
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
@@ -41,9 +41,11 @@ $ npm install
 # Install dependencies
 $ npm run build-dev
 
-# Run the app
+# Open new terminal, navigate to the same folder (MagicAgendaItem) and run the app
 $ npm start
 ```
+
+Then open up [http://localhost:9000/agenda](http://localhost:9000/agenda) in your browser.
 
 
 #### License
